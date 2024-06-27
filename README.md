@@ -1,4 +1,5 @@
 # migration
+
 migration between email accounts  Email Migration Tool Preview  Migrating your emails to a new email address or changing the mail provider can be a challenging task. That tool helps you to migrate your emails to a new account. No chaos with multiple email addresses in your mail program, lost data or undeliverable emails.
 
 
@@ -7,7 +8,7 @@ migration between email accounts  Email Migration Tool Preview  Migrating your e
 You can run the script from the command line with arguments similar to the `imapsync` tool:
 
 ```sh
-python migrate_emails.py --host1 test1.lamiral.info --port1 993 --user1 test1 --password1 "secret1" --host2 test2.lamiral.info --port2 993 --user2 test2 --password2 "secret2"
+python sync.py --host1 test1.lamiral.info --port1 993 --user1 test1 --password1 "secret1" --host2 test2.lamiral.info --port2 993 --user2 test2 --password2 "secret2"
 ```
 
 ### Explanation
